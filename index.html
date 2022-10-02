@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- ICON PACK -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- JS FILE LINK -->
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header--bar">
+          <div class="menu--nav">
+            <div class="menu--toggle">
+              <ion-icon
+                name="menu-outline"
+                class="icon menu--toggle-icon"
+              ></ion-icon>
+              <span>Menu</span>
+            </div>
+          </div>
+          <div class="logo">
+            <a href="#">
+              <img src="img/logo.PNG" alt="logo" />
+            </a>
+          </div>
+          <div class="search--div">
+            <ion-icon
+              name="search-outline"
+              class="icon search--icon"
+            ></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="search--form">
+        <div class="container">
+          <ion-icon name="close-outline" class="close--icon"></ion-icon>
+          <div class="search-form-inputs">
+            <input type="text" placeholder="Search your query" /><ion-icon
+              name="search-outline"
+              class="search--form-icon"
+            ></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="site-nav">
+        <div class="navigation--bar">
+          <section class="top--nav-bar">
+            <div class="logo--nav">
+              <img src="img/logo.PNG" alt="logo" />
+            </div>
+            <ion-icon name="close-outline" class="nav--close-icon"></ion-icon>
+          </section>
+          <section class="nav-bar-items-list">
+            <ul class="nav-bar-items-sidebar">
+              <li>
+                <a href="#">Home</a
+                ><ion-icon name="add-outline" class="plus-tab"></ion-icon>
+              </li>
+              <li>
+                <a href="#">Blog</a
+                ><ion-icon name="add-outline" class="plus-tab"></ion-icon>
+              </li>
+              <li>
+                <a href="#">About</a
+                ><ion-icon name="add-outline" class="plus-tab"></ion-icon>
+              </li>
+              <li>
+                <a href="#">Contact</a
+                ><ion-icon name="add-outline" class="plus-tab"></ion-icon>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="blank-nav"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="container">
+        <div class="grid">
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="single--post">
+            <header class="post--header">
+              <a class="featured--image" href="#">
+                <img src="https://picsum.photos/500" alt="post-thumbnail" />
+              </a>
+            </header>
+            <div class="post--content">
+              <div class="category--name">
+                <a href="#">
+                  <p>Category</p>
+                </a>
+              </div>
+              <div class="title--main">
+                <a href="#">
+                  <h1>
+                    Design Concern Years After The Moon Landin Close Travel
+                    Really
+                  </h1>
+                </a>
+              </div>
+              <div class="posted--detail">
+                <div class="author--detail">
+                  BY <a href="#"><span>Author</span></a>
+                </div>
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  <a href="#" class="posted--time"
+                    ><span>DECEMBER 9, 2021</span></a
+                  >
+                </div>
+              </div>
+              <div class="excerpt--post">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt voluptatum modi quo cum debitis quis rerum quas
+                  quibusdam dignissimos non!
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="container">
+        <div class="footer--item">
+          <div class="footer--logo">
+            <a href="#">
+              <img src="/img/logo.PNG" alt="footer-logo" />
+            </a>
+          </div>
+          <div class="footer--menu">
+            <ul class="footer-menu--list">
+              <li class="footer-menu--items">
+                <a href="#">Home</a>
+              </li>
+              <li class="footer-menu--items">
+                <a href="#">About</a>
+              </li>
+              <li class="footer-menu--items">
+                <a href="#">Contact</a>
+              </li>
+              <li class="footer-menu--items">
+                <a href="#">Privacy</a>
+              </li>
+              <li class="footer-menu--items">
+                <a href="#">Disclaimer</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer--socials">
+            <ul>
+              <li>
+                <a href="#"
+                  ><ion-icon
+                    name="logo-facebook"
+                    class="footer--icon"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><ion-icon
+                    name="logo-instagram"
+                    class="footer--icon"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><ion-icon name="logo-twitter" class="footer--icon"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><ion-icon
+                    name="logo-pinterest"
+                    class="footer--icon"
+                  ></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer--copyright">
+            <p>© 2022 neeon. All Rights Reserved by RadiusTheme</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
